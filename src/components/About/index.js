@@ -74,7 +74,10 @@ const About = () => {
           </h3>
           <div className="button-container">
             <div className="glass-btn button1">
-              <a rel="nonreferrer" href="/projects">
+              <a
+                rel="nonreferrer"
+                href="https://isabelleilyia.github.io/projects"
+              >
                 <FontAwesomeIcon
                   icon={faCode}
                   className="quick-icon"
@@ -98,7 +101,10 @@ const About = () => {
             </div>
 
             <div className="glass-btn button3">
-              <a rel="nonreferrer" href="/contact">
+              <a
+                rel="nonreferrer"
+                href="https://isabelleilyia.github.io/contact"
+              >
                 <FontAwesomeIcon
                   icon={faPhone}
                   className="quick-icon"
