@@ -64,9 +64,9 @@ const About = () => {
               {' '}
               threads{' '}
             </a>{' '}
-            (concentrations) are People (Designing, building, and evaluating
-            systems that treat humans as the central component) and Information
-            Internetworks (Representing, transforming, transmitting, and
+            (concentrations) are "People" (Designing, building, and evaluating
+            systems that treat humans as the central component) and "Information
+            Internetworks" (Representing, transforming, transmitting, and
             presenting information).
           </p>
           <h3 style={{ color: 'white', marginTop: '5rem' }}>
