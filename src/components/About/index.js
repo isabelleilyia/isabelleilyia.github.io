@@ -29,6 +29,7 @@ import Dotnet from '../../assets/images/dotnet.png'
 import FirebaseLogo from '../../assets/images/firebase.png'
 import APIs from '../../assets/images/googleapis.png'
 import Carousel from './Carousel'
+import { Link } from 'react-router-dom'
 
 import Loader from 'react-loaders'
 
@@ -74,16 +75,13 @@ const About = () => {
           </h3>
           <div className="button-container">
             <div className="glass-btn button1">
-              <a
-                rel="nonreferrer"
-                href="https://isabelleilyia.github.io/projects"
-              >
+              <Link to="/projects">
                 <FontAwesomeIcon
                   icon={faCode}
                   className="quick-icon"
                   color="white"
                 />
-              </a>
+              </Link>
             </div>
 
             <div className="glass-btn button2">
@@ -101,16 +99,13 @@ const About = () => {
             </div>
 
             <div className="glass-btn button3">
-              <a
-                rel="nonreferrer"
-                href="https://isabelleilyia.github.io/contact"
-              >
+              <Link to="/contact">
                 <FontAwesomeIcon
                   icon={faPhone}
                   className="quick-icon"
                   color="white"
                 />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
