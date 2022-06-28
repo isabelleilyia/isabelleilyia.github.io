@@ -242,7 +242,7 @@
 
       @for $i from 1 through 100 {
         &:nth-child(#{$i}) {
-          transform: (rotate(($i * 8) + deg));
+          transform: (rotate(($i * 6) + deg));
         }
       }
     }
@@ -256,52 +256,141 @@
 
     .skill-name {
       position: absolute;
-      top: 25rem;
+      top: 28rem;
       color: rgba(255, 255, 255, 0.8);
+      opacity: 0;
     }
     .skill-name2 {
       position: absolute;
-      top: 45rem;
+      top: 49rem;
       color: rgba(255, 255, 255, 0.8);
+      opacity: 0;
     }
     .skill-name3 {
       position: absolute;
-      top: 64rem;
+      top: 68rem;
       color: rgba(255, 255, 255, 0.8);
+      opacity: 0;
     }
 
     .skill-circle {
-      width: 80px;
-      height: 80px;
+      width: 90px;
+      height: 90px;
       border-radius: 50%;
-      box-shadow: inset 0 0 50px #f17780,
-        /* inner white */ inset 20px 0 80px #3067eb,
-        /* inner left magenta short */ inset -20px 0 80px #f1c62c,
-        /* inner right cyan short */ inset 20px 0 300px #3067eb,
-        /* inner left magenta broad */ inset -20px 0 300px #f17780,
-        /* inner right cyan broad */ 0 0 50px #f1c62c,
-        /* outer white */ -10px 0 80px #3067eb,
-        /* outer left magenta */ 10px 0 80px #f17780;
-      // border: 1px solid #ccc;
-      // background: rgba(220, 220, 220, 0);
-      text-align: center;
-      font-size: 45px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      // box-shadow: 0px 0px 7px 20px whitesmoke;
-      margin-bottom: 6rem;
-      margin-top: 5rem;
-      overflow: hidden;
 
       img {
-        max-width: 108%;
+        max-width: 112%;
       }
 
       .logo-firebase {
-        max-width: 40%;
+        max-width: 50%;
+      }
+
+      &:hover {
+        width: 100px;
+        height: 100px;
+        transition: 0.2s ease-in-out;
+        box-shadow: inset 0 0 50px #f17780,
+          /* inner white */ inset 20px 0 80px #570861,
+          /* inner left magenta short */ inset -20px 0 80px #f1c62c,
+          /* inner right cyan short */ inset 20px 0 300px #3067eb,
+          /* inner left magenta broad */ inset -20px 0 300px #f17780,
+          /* inner right cyan broad */ 0 0 50px #f1c62c,
+          /* outer white */ -10px 0 80px #3067eb,
+          /* outer left magenta */ 10px 0 80px #f17780;
+
+        h3 {
+          opacity: 1;
+          transition: 0.2s ease-in-out;
+        }
       }
     }
+  }
+  .language {
+    box-shadow: inset 0 0 50px #f17780,
+      /* inner white */ inset 20px 0 80px #3067eb,
+      /* inner left magenta short */ inset -20px 0 80px #f1c62c,
+      /* inner right cyan short */ inset 20px 0 300px #3067eb,
+      /* inner left magenta broad */ inset -20px 0 300px #f17780,
+      /* inner right cyan broad */ 0 0 50px #f1c62c,
+      /* outer white */ -10px 0 80px #3067eb,
+      /* outer left magenta */ 10px 0 80px #f17780;
+    // border: 1px solid #ccc;
+    // background: rgba(220, 220, 220, 0);
+    text-align: center;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // box-shadow: 0px 0px 7px 20px whitesmoke;
+    margin-bottom: 6rem;
+    margin-top: 5rem;
+    overflow: hidden;
+  }
+
+  .framework {
+    box-shadow: inset 0 0 50px #f17780,
+      /* inner white */ inset 20px 0 80px #c8a4d4,
+      /* inner left magenta short */ inset -20px 0 80px #ecd9ba,
+      /* inner right cyan short */ inset 20px 0 300px #3067eb,
+      /* inner left magenta broad */ inset -20px 0 300px #f17780,
+      /* inner right cyan broad */ 0 0 50px #f1c62c,
+      /* outer white */ -10px 0 80px #3067eb,
+      /* outer left magenta */ 10px 0 80px #f17780;
+    // border: 1px solid #ccc;
+    // background: rgba(220, 220, 220, 0);
+    text-align: center;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // box-shadow: 0px 0px 7px 20px whitesmoke;
+    margin-bottom: 6rem;
+    margin-top: 5rem;
+    overflow: hidden;
+  }
+
+  .google {
+    box-shadow: inset 0 0 50px #cbc3e3,
+      /* inner white */ inset 20px 0 80px #78aaff,
+      /* inner left magenta short */ inset -20px 0 80px #accbff,
+      /* inner right cyan short */ inset 20px 0 300px #3067eb,
+      /* inner left magenta broad */ inset -20px 0 300px #f17780,
+      /* inner right cyan broad */ 0 0 50px #f1c62c,
+      /* outer white */ -10px 0 80px #3067eb,
+      /* outer left magenta */ 10px 0 80px #f17780;
+    // border: 1px solid #ccc;
+    // background: rgba(220, 220, 220, 0);
+    text-align: center;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // box-shadow: 0px 0px 7px 20px whitesmoke;
+    margin-bottom: 6rem;
+    margin-top: 5rem;
+    overflow: hidden;
+  }
+  .dev {
+    box-shadow: inset 0 0 50px #ffb6c1,
+      /* inner white */ inset 20px 0 80px #b0c4de,
+      /* inner left magenta short */ inset -20px 0 80px #accbff,
+      /* inner right cyan short */ inset 20px 0 300px #3067eb,
+      /* inner left magenta broad */ inset -20px 0 300px #f17780,
+      /* inner right cyan broad */ 0 0 50px #f1c62c,
+      /* outer white */ -10px 0 80px #3067eb,
+      /* outer left magenta */ 10px 0 80px #f17780;
+    // border: 1px solid #ccc;
+    // background: rgba(220, 220, 220, 0);
+    text-align: center;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // box-shadow: 0px 0px 7px 20px whitesmoke;
+    margin-bottom: 6rem;
+    margin-top: 5rem;
+    overflow: hidden;
   }
 
   .transition {

@@ -28,6 +28,8 @@ import Xamarin from '../../assets/images/xamarinlogo.png'
 import Dotnet from '../../assets/images/dotnet.png'
 import FirebaseLogo from '../../assets/images/firebase.png'
 import APIs from '../../assets/images/googleapis.png'
+import GRPC from '../../assets/images/grpc.png'
+import GCP from '../../assets/images/gcp.png'
 import Carousel from './Carousel'
 import { Link } from 'react-router-dom'
 
@@ -70,20 +72,10 @@ const About = () => {
             Internetworks" (Representing, transforming, transmitting, and
             presenting information).
           </p>
-          <h3 style={{ color: 'white', marginTop: '5rem' }}>
-            Short on Time? Cut to the chase.
-          </h3>
-          <div className="button-container">
-            <div className="glass-btn button1">
-              <Link to="/projects">
-                <FontAwesomeIcon
-                  icon={faCode}
-                  className="quick-icon"
-                  color="white"
-                />
-              </Link>
-            </div>
-
+          <div style={{ flexDirection: 'row', width: '100%' }}>
+            <h3 style={{ color: 'white', marginTop: '5rem' }}>
+              Short on Time? Cut to the chase.
+            </h3>
             <div className="glass-btn button2">
               <a
                 rel="nonreferrer"
@@ -97,8 +89,19 @@ const About = () => {
                 />
               </a>
             </div>
+          </div>
+          <div className="button-container">
+            {/* <div className="glass-btn button1">
+              <Link to="/projects">
+                <FontAwesomeIcon
+                  icon={faCode}
+                  className="quick-icon"
+                  color="white"
+                />
+              </Link>
+            </div> */}
 
-            <div className="glass-btn button3">
+            {/* <div className="glass-btn button3">
               <Link to="/contact">
                 <FontAwesomeIcon
                   icon={faPhone}
@@ -106,7 +109,7 @@ const About = () => {
                   color="white"
                 />
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
 
@@ -185,28 +188,28 @@ const About = () => {
             flexWrap: 'wrap',
           }}
         >
-          <div className="skill-circle">
+          <div className="skill-circle language">
             <FontAwesomeIcon icon={faJava} color="#F89820" />
             <h3 class="skill-name">JAVA</h3>
           </div>
-          <div className="skill-circle">
+          <div className="skill-circle language">
             <FontAwesomeIcon icon={faPython} color="#FFD43B" />
             <h3 class="skill-name">PYTHON</h3>
           </div>
-          <div className="skill-circle">
+          <div className="skill-circle language">
             <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
             <h3 class="skill-name">JAVASCRIPT</h3>
           </div>
-          <div className="skill-circle">
+          <div className="skill-circle language">
             <FontAwesomeIcon icon={faHtml5} color="#F06529" />
             <h3 class="skill-name">HTML5</h3>
           </div>
-          <div className="skill-circle">
+          <div className="skill-circle language">
             <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
             <h3 class="skill-name">CSS3</h3>
           </div>
 
-          <div className="skill-circle">
+          <div className="skill-circle language">
             <img style={{ height: 50, width: 50 }} src={C_sharp} alt="C#" />
             <h3 class="skill-name">C#</h3>
 
@@ -233,11 +236,11 @@ const About = () => {
             flexWrap: 'wrap',
           }}
         >
-          <div className="skill-circle">
+          <div className="skill-circle framework">
             <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
             <h3 class="skill-name2">REACTJS + REACT NATIVE</h3>
           </div>
-          <div className="skill-circle">
+          <div className="skill-circle framework">
             <img
               className="logo-django"
               style={{ height: 50, width: 50 }}
@@ -246,7 +249,7 @@ const About = () => {
             />
             <h3 class="skill-name2">DJANGO</h3>
           </div>
-          <div className="skill-circle">
+          <div className="skill-circle framework">
             <img
               className="logo-xamarin"
               style={{ height: 50, width: 50 }}
@@ -255,7 +258,7 @@ const About = () => {
             />
             <h3 class="skill-name2">XAMARIN</h3>
           </div>
-          <div className="skill-circle">
+          <div className="skill-circle framework">
             <h3 class="skill-name2">.NET CORE</h3>
             <img
               style={{ height: 50, width: 50 }}
@@ -275,7 +278,7 @@ const About = () => {
               <span>S</span>
             </h3>
           </div>
-          <div className="skill-circle">
+          <div className="skill-circle google">
             <img
               className="logo-firebase"
               style={{ height: 50, width: 50 }}
@@ -284,7 +287,8 @@ const About = () => {
             />
             <h3 class="skill-name2">FIREBASE</h3>
           </div>
-          <div className="skill-circle">
+
+          <div className="skill-circle google">
             <img
               className="logo-API"
               style={{ height: 50, width: 50 }}
@@ -293,6 +297,7 @@ const About = () => {
             />
             <h3 class="skill-name2">DIRECTORY/DRIVE APIS</h3>
             <h3 class="curved">
+              <span> </span>
               <span> </span>
               <span>G</span>
               <span>O</span>
@@ -307,26 +312,25 @@ const About = () => {
             style={{
               display: 'flex',
               flexDirection: 'row',
-              width: '85%',
-              marginLeft: '9%',
+              width: '100%',
               justifyContent: 'space-around',
               flexWrap: 'wrap',
             }}
           >
-            <div className="skill-circle">
+            <div className="skill-circle dev">
               <FontAwesomeIcon icon={faGithub} />
               <h3 class="skill-name3">GITHUB</h3>
             </div>
-            <div className="skill-circle">
+            <div className="skill-circle dev">
               <img
                 className="logo-vs"
                 style={{ height: 50, width: 50 }}
                 src={VSCode}
                 alt="VSCode logo"
               />
-              <h3 class="skill-name3">VS CODE</h3>
+              <h3 class="skill-name3">VS / VS CODE</h3>
             </div>
-            <div className="skill-circle">
+            <div className="skill-circle dev">
               <img
                 className="logo-terminal"
                 style={{ height: 50, width: 50 }}
@@ -336,11 +340,12 @@ const About = () => {
               <h3 class="skill-name3">COMMAND-LINE</h3>
             </div>
 
-            <div className="skill-circle">
+            <div className="skill-circle dev">
               <FontAwesomeIcon icon={faFigma} color="#FF7262" />
               <h3 class="skill-name3">FIGMA</h3>
 
               <h3 class="curved">
+                <span> </span>
                 <span>D</span>
                 <span>E</span>
                 <span>V</span>
@@ -351,6 +356,24 @@ const About = () => {
                 <span>L</span>
                 <span>S</span>
               </h3>
+            </div>
+            <div className="skill-circle google">
+              <img
+                className="logo-firebase"
+                style={{ height: 60, width: 60 }}
+                src={GRPC}
+                alt="GRPC logo"
+              />
+              <h3 class="skill-name3">GRPC</h3>
+            </div>
+            <div className="skill-circle google">
+              <img
+                className="logo-firebase"
+                style={{ height: 40, width: 50 }}
+                src={GCP}
+                alt="GCP logo"
+              />
+              <h3 class="skill-name3">GOOGLE CLOUD PLATFORM</h3>
             </div>
           </div>
         </div>

@@ -5,6 +5,7 @@ import Meetr from '../../assets/images/meetr.png'
 import ToDo from '../../assets/images/todo.png'
 import { Link } from 'react-router-dom'
 import T from '../../assets/images/gt-tech.jpeg'
+import schoolLogo from '../../assets/images/googleApp.png'
 
 const Projects = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -60,23 +61,22 @@ const Projects = () => {
             CHECK IT OUT
           </Link>
         </div>
-        {/* <div className="project-container project-card">
+        <div className="project-container project-card">
           <img
-            src={T}
-            alt="greeny-earth"
+            src={schoolLogo}
+            alt="netflic-clone"
             loading="lazy"
             className="project-pic"
           />
-          <h2 className="project-title">T-HEIST</h2>
+          <h2 className="project-title">GOOGLE DIRECTORY</h2>
           <p className="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
+            Xamarin mobile application for schools to organize grades, groups,
+            and users using the Google Directory API.
           </p>
-          <Link to="/contact" className="flat-button">
+          <Link to="/googledirectory" className="flat-button">
             CHECK IT OUT
           </Link>
-        </div> */}
+        </div>
       </div>
     </div>
   )

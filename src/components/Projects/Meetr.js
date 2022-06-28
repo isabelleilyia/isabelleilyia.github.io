@@ -164,11 +164,19 @@ const Meetr = () => {
             }}
           >
             <li>React Native, front-end and back-end developlment</li>
-            <li>Firebase Firestore</li>
-            <li>Cloud Functions, writing and deploying</li>
-            <li>Figma, designing and prototyping</li>
-            <li>Github</li>
-            <li>UI/UX Animations</li>
+            <li>
+              Firebase Firestore, designing and implementing backend structures
+            </li>
+            <li>
+              Cloud Functions, writing and deploying to manipulate backend data
+              storage
+            </li>
+            <li>Figma, designing and prototyping new features</li>
+            <li>Github for version control and code reviews</li>
+            <li>
+              UI/UX Animations such as drag-and-drop for enhanced user
+              experience
+            </li>
           </ul>
         </div>
         <div className="text-video">

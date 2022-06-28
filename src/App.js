@@ -7,6 +7,7 @@ import Contact from './components/Contact'
 import Projects from './components/Projects'
 import Meetr from './components/Projects/Meetr'
 import ToDo from './components/Projects/ToDo'
+import CPSI from './components/Projects/CPSI'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="projects" element={<Projects />} />
           <Route path="meetr" element={<Meetr />} />
           <Route path="todo" element={<ToDo />} />
+          <Route path="googledirectory" element={<CPSI />} />
         </Route>
       </Routes>
     </>
