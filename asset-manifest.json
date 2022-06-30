@@ -1,18 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.11a0c4ff.css",
-    "main.js": "/static/js/main.612e6217.js",
+    "main.css": "/static/css/main.ded79a22.css",
+    "main.js": "/static/js/main.b2ab8e3b.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/google-ou.mov": "/static/media/google-ou.56662abcddc8b7715956.mov",
+    "static/media/google-groups.mov": "/static/media/google-groups.5b887299e6d1df25ff45.mov",
     "static/media/meetr-clip-circles.mov": "/static/media/meetr-clip-circles.89bf09a86241c09296f7.mov",
     "static/media/meetr-clip-map.mov": "/static/media/meetr-clip-map.0619ab1b8c4eaa0fe7fb.mov",
     "static/media/meetr-clip-events.mov": "/static/media/meetr-clip-events.9448aba08961ca10ea9f.mov",
     "static/media/onboarding.mov": "/static/media/onboarding.355a07c7e8ca00faa008.mov",
     "static/media/gt-tech.jpeg": "/static/media/gt-tech.e3c5e67985deb8d0fcd8.jpeg",
+    "static/media/google-users.mov": "/static/media/google-users.071f1ad9a04e64d73952.mov",
     "static/media/profile.jpg": "/static/media/profile.71b92dfb497609f25a48.jpg",
     "static/media/vscode.png": "/static/media/vscode.e66400756ccbdbfc0b31.png",
     "static/media/dotnet.png": "/static/media/dotnet.f9abf75ea7a3f7a02b57.png",
+    "static/media/googleApp.png": "/static/media/googleApp.dea474ff4bc36e057a7a.png",
+    "static/media/google-login.mov": "/static/media/google-login.a8dbe5284adc7dcb9480.mov",
     "static/media/todo.png": "/static/media/todo.35c2e712a2ee0518463f.png",
     "static/media/sample.jpg": "/static/media/sample.b6ec75e161eda00bc8c7.jpg",
+    "static/media/grpc.png": "/static/media/grpc.324ba7ae7c6c9a3300af.png",
     "static/media/todo-decoration.png": "/static/media/todo-decoration.6a07d5779fe91c77ba13.png",
     "static/media/googleapis.png": "/static/media/googleapis.ecca6e62990d611d032a.png",
     "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
@@ -22,18 +28,19 @@
     "static/media/c-sharp.png": "/static/media/c-sharp.7f58ab59750a276a404e.png",
     "static/media/terminal.png": "/static/media/terminal.d21f4bab828f991aff20.png",
     "static/media/meetr.png": "/static/media/meetr.23d6237b818dd72f6e01.png",
+    "static/media/gcp.png": "/static/media/gcp.ec1b1db42cd441add827.png",
     "static/media/meetr-decoration1.png": "/static/media/meetr-decoration1.e90cfd6c40012a4711d6.png",
     "static/media/firebase.png": "/static/media/firebase.a4156cb67d6d0676cffc.png",
     "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "static/media/logo_sub.svg": "/static/media/logo_sub.a2771e894275e199d8a08d198d17e2a0.svg",
     "index.html": "/index.html",
     "static/media/logo.svg": "/static/media/logo.c5563b480530d9eb5ec187e3e7757e5d.svg",
-    "main.11a0c4ff.css.map": "/static/css/main.11a0c4ff.css.map",
-    "main.612e6217.js.map": "/static/js/main.612e6217.js.map",
+    "main.ded79a22.css.map": "/static/css/main.ded79a22.css.map",
+    "main.b2ab8e3b.js.map": "/static/js/main.b2ab8e3b.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.11a0c4ff.css",
-    "static/js/main.612e6217.js"
+    "static/css/main.ded79a22.css",
+    "static/js/main.b2ab8e3b.js"
   ]
 }
